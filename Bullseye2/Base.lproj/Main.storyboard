@@ -99,6 +99,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="roundLabel" destination="fTG-c3-wsf" id="VZF-LF-0cf"/>
+                        <outlet property="scoreLabel" destination="ZIw-cJ-x4T" id="gGc-tc-DAr"/>
+                        <outlet property="slider" destination="UqG-Vb-f4F" id="7kw-3D-tpJ"/>
+                        <outlet property="targetLabel" destination="GlF-xU-GED" id="FHy-rb-mIy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
