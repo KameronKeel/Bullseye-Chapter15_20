@@ -13,6 +13,9 @@
 		8E631A352502CD5400EA4823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E631A332502CD5400EA4823 /* Main.storyboard */; };
 		8E631A372502CD5500EA4823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E631A362502CD5500EA4823 /* Assets.xcassets */; };
 		8E631A3A2502CD5500EA4823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E631A382502CD5500EA4823 /* LaunchScreen.storyboard */; };
+		8E6E5C51250570900086BF89 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E5C50250570900086BF89 /* AboutViewController.swift */; };
+		8E6E5EBB250579460086BF89 /* Bullseye.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E5EBA250579460086BF89 /* Bullseye.html */; };
+		8E6E5EBE250579A40086BF89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6E5EBD250579A40086BF89 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8E631A362502CD5500EA4823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E631A392502CD5500EA4823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E631A3B2502CD5500EA4823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6E5C50250570900086BF89 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8E6E5EBA250579460086BF89 /* Bullseye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Bullseye.html; sourceTree = "<group>"; };
+		8E6E5EBD250579A40086BF89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6E5EBE250579A40086BF89 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				8E631A2C2502CD5400EA4823 /* Bullseye2 */,
 				8E631A2B2502CD5400EA4823 /* Products */,
+				8E6E5EBC250579A30086BF89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +64,25 @@
 		8E631A2C2502CD5400EA4823 /* Bullseye2 */ = {
 			isa = PBXGroup;
 			children = (
+				8E6E5EBA250579460086BF89 /* Bullseye.html */,
 				8E631A2D2502CD5400EA4823 /* AppDelegate.swift */,
 				8E631A2F2502CD5400EA4823 /* SceneDelegate.swift */,
 				8E631A312502CD5400EA4823 /* ViewController.swift */,
+				8E6E5C50250570900086BF89 /* AboutViewController.swift */,
 				8E631A332502CD5400EA4823 /* Main.storyboard */,
 				8E631A362502CD5500EA4823 /* Assets.xcassets */,
 				8E631A382502CD5500EA4823 /* LaunchScreen.storyboard */,
 				8E631A3B2502CD5500EA4823 /* Info.plist */,
 			);
 			path = Bullseye2;
+			sourceTree = "<group>";
+		};
+		8E6E5EBC250579A30086BF89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E6E5EBD250579A40086BF89 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E631A3A2502CD5500EA4823 /* LaunchScreen.storyboard in Resources */,
+				8E6E5EBB250579460086BF89 /* Bullseye.html in Resources */,
 				8E631A372502CD5500EA4823 /* Assets.xcassets in Resources */,
 				8E631A352502CD5400EA4823 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 			files = (
 				8E631A322502CD5400EA4823 /* ViewController.swift in Sources */,
 				8E631A2E2502CD5400EA4823 /* AppDelegate.swift in Sources */,
+				8E6E5C51250570900086BF89 /* AboutViewController.swift in Sources */,
 				8E631A302502CD5400EA4823 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
