@@ -16,6 +16,7 @@
 		8E6E5C51250570900086BF89 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E5C50250570900086BF89 /* AboutViewController.swift */; };
 		8E6E5EBB250579460086BF89 /* Bullseye.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E5EBA250579460086BF89 /* Bullseye.html */; };
 		8E6E5EBE250579A40086BF89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6E5EBD250579A40086BF89 /* WebKit.framework */; };
+		8E6E5EC025057C010086BF89 /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E5EBF25057C010086BF89 /* HighScoresViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8E6E5C50250570900086BF89 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		8E6E5EBA250579460086BF89 /* Bullseye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Bullseye.html; sourceTree = "<group>"; };
 		8E6E5EBD250579A40086BF89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8E6E5EBF25057C010086BF89 /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8E631A312502CD5400EA4823 /* ViewController.swift */,
 				8E6E5C50250570900086BF89 /* AboutViewController.swift */,
 				8E631A332502CD5400EA4823 /* Main.storyboard */,
+				8E6E5EBF25057C010086BF89 /* HighScoresViewController.swift */,
 				8E631A362502CD5500EA4823 /* Assets.xcassets */,
 				8E631A382502CD5500EA4823 /* LaunchScreen.storyboard */,
 				8E631A3B2502CD5500EA4823 /* Info.plist */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6E5EC025057C010086BF89 /* HighScoresViewController.swift in Sources */,
 				8E631A322502CD5400EA4823 /* ViewController.swift in Sources */,
 				8E631A2E2502CD5400EA4823 /* AppDelegate.swift in Sources */,
 				8E6E5C51250570900086BF89 /* AboutViewController.swift in Sources */,
