@@ -17,6 +17,9 @@
 		8E6E5EBB250579460086BF89 /* Bullseye.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E5EBA250579460086BF89 /* Bullseye.html */; };
 		8E6E5EBE250579A40086BF89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6E5EBD250579A40086BF89 /* WebKit.framework */; };
 		8E6E5EC025057C010086BF89 /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E5EBF25057C010086BF89 /* HighScoresViewController.swift */; };
+		8EA35196250DC19F00ED9119 /* PersistencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35195250DC19F00ED9119 /* PersistencyHelper.swift */; };
+		8EA35198250DD4AD00ED9119 /* EditHighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35197250DD4AD00ED9119 /* EditHighScoreViewController.swift */; };
+		8ED560F5250980E300E95B65 /* HighScoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED560F4250980E300E95B65 /* HighScoreItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		8E6E5EBA250579460086BF89 /* Bullseye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Bullseye.html; sourceTree = "<group>"; };
 		8E6E5EBD250579A40086BF89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8E6E5EBF25057C010086BF89 /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
+		8EA35195250DC19F00ED9119 /* PersistencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyHelper.swift; sourceTree = "<group>"; };
+		8EA35197250DD4AD00ED9119 /* EditHighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHighScoreViewController.swift; sourceTree = "<group>"; };
+		8ED560F4250980E300E95B65 /* HighScoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,9 @@
 				8E631A362502CD5500EA4823 /* Assets.xcassets */,
 				8E631A382502CD5500EA4823 /* LaunchScreen.storyboard */,
 				8E631A3B2502CD5500EA4823 /* Info.plist */,
+				8ED560F4250980E300E95B65 /* HighScoreItem.swift */,
+				8EA35195250DC19F00ED9119 /* PersistencyHelper.swift */,
+				8EA35197250DD4AD00ED9119 /* EditHighScoreViewController.swift */,
 			);
 			path = Bullseye2;
 			sourceTree = "<group>";
@@ -161,10 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6E5EC025057C010086BF89 /* HighScoresViewController.swift in Sources */,
+				8ED560F5250980E300E95B65 /* HighScoreItem.swift in Sources */,
+				8EA35196250DC19F00ED9119 /* PersistencyHelper.swift in Sources */,
 				8E631A322502CD5400EA4823 /* ViewController.swift in Sources */,
 				8E631A2E2502CD5400EA4823 /* AppDelegate.swift in Sources */,
 				8E6E5C51250570900086BF89 /* AboutViewController.swift in Sources */,
 				8E631A302502CD5400EA4823 /* SceneDelegate.swift in Sources */,
+				8EA35198250DD4AD00ED9119 /* EditHighScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

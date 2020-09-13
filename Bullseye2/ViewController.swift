@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         startNewGame()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -87,9 +88,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startNewGame(){
+        addHighScore(score)
         score = 0
         round = 0
         startNewRound()
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey:  nil)
+    }
+    
+    func addHighScore(_ score:Int){
+        guard score > 0 else{
+            return;
+        }
+        let highscore = HighScoreItem()
+        highscore.score = score
+        highscore.name = "Unknown"
+        
+        var highScores = PersistencyHelper.loadHighScores()
+        highScores.append(highscore)
+        highScores.sort{ $0.score > $1.score}
+        PersistencyHelper.saveHighScores(highScores)
     }
 }
 
